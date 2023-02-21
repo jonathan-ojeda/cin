@@ -119,9 +119,9 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
     showCupertinoModalPopup<void>(
       context: context,
       builder: (BuildContext context) => CupertinoAlertDialog(
-        title: const Text("🇨🇺" + ' ❤ ' + "🇺🇾"),
+        title: const Text(' ❤ '),
         content: const Text(
-            'Somos la prueba de que existe el amor a primera vista...!!!'),
+            'Happy San Valentine\'s Day...!!!'),
       ),
     );
   }
